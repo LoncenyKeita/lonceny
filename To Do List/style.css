@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(96, 96, 253);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+section{
+    background-color: white;
+    border-radius: 5px;
+    width: 25%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(48, 48, 59);
+    overflow: hidden;
+}
+h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgb(115, 115, 157);
+}
+
+.full_input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width: 90%;
+    padding-left: 5px;  
+    font-size: 15px; 
+    outline: 0;
+    height: 28px;
+    border-radius: 6px 0 0 6px;
+    border: 1px solid rgb(142, 147, 152);     
+}
+button{
+    border-radius: 0 6px 6px 0 ;
+    font-size: 15px;
+    border: 0;
+    width: 10%;
+    cursor: pointer;
+    height: 28px;
+    background-color:rgb(44, 102, 229);
+    color: white;
+    outline: 0;
+}
+button:hover{
+    background-color:rgb(96, 96, 253); 
+}
+.paragraphe_style{
+    margin: 10px 0;
+    padding: 6px 0;
+    border-radius: 6px;
+    border: 1px solid rgb(142, 147, 152) ;
+    background-color:rgb(44, 102, 229); 
+    color: white;
+    padding-left: 5px;
+    font-size: 15px; 
+    word-break: break-all;
+    animation: anime 0,5s linear;
+}
+@keyframes anime {
+    from{
+        transform: translateY(50px);
+    }  
+}
+.paragraphe_click{
+    text-decoration: line-through;
+    background-color: rgb(225, 135, 135);
+}
